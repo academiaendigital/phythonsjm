@@ -5,6 +5,12 @@ print(meses)
 
 
 #ordenar elementos de la list
+#Por defecto, sort() ordena los elementos en orden ascendente, 
+# basado en la representación Unicode de los elementos. 
+# Esto significa que los números se ordenan numéricamente y
+#  las cadenas se ordenan alfabéticamente.
+
+
 meses.sort()
 print(meses[0]) #para imrprimir la posicion en especifico
 print(meses)
@@ -37,7 +43,7 @@ print(meses)
 meses.pop() #elimina el ultimo elemento de la lista
 print(meses)
 
-#liminar un posicion en especifica
+#Eliminar un posicion en especifica
 meses.pop(1) 
 print(meses)
 

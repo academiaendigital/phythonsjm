@@ -15,17 +15,7 @@ if edad >=18:
 else:
     print(f'lo sentimos aun eres un bebe')
 
-
-
-
-
-
-
-
-
-
-
-
+#SEGUNDO EJERCICIO 
 nombre = input('Cuál es tu nombre?')
 print(f'Tu nombre es {nombre}')
 
