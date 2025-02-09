@@ -30,4 +30,3 @@ try:
         print(f'Aún no tienes la edad para votar.')
 except ValueError:
     print("Por favor, ingresa un número válido para la edad.")
-
